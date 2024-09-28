@@ -1,0 +1,496 @@
+
+
+body {
+  background-color: #052b50;
+  max-width: fit-content;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+.glass-effect {
+  background: url(layered-steps-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* padding: 20px; */
+  color: #333;
+  width: 100vw;
+   /* margin: 0 auto;  */
+  max-width: 100%;
+}
+.glass-effect1 {
+  background: url(layered-steps-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* padding: 20px; */
+  color: #333;
+  /* margin-bottom: -800px; */
+  /* width: 2000px; */
+  margin: 0 auto; /* Centering content */
+  max-width: 100%;
+  width: 100vw;
+}
+.glass-effect2 {
+  background: url(layered-steps-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* padding: 20px; */
+  color: #333;
+  height: 550px;
+  max-width: 100%;
+  /* width: 2000px; */
+  width: 100vw;
+}
+
+.glass-effect3 {
+  background: url(layered-steps-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  color:white;
+  height: 870px;
+  margin: 0 auto; /* Centering content */
+  max-width: 100%;
+  /* width: 2000px; */
+  width: 100vw;
+}
+#head {
+  margin-left: 110px;
+  margin-top: 35px;
+  font-weight: bolder;
+  font-size: 35px;
+  color:white;
+}
+
+p {
+  font-weight: bolder;
+}
+#fid {
+  justify-content: space-around;
+  margin-left: 900px;
+  display: flex;
+  margin-top: -70px;
+  list-style: none;
+  padding: 0;
+}
+
+#element1 {
+  color:#66b2ff;
+}
+#element2 {
+  color:#66b2ff;
+}
+#lid {
+  font-size: 25px;
+  list-style: none;
+  margin-top: 10px;
+  color: #66b2ff;
+}
+#lid:hover {
+  color:white;
+}
+.para {
+  font-weight: bolder;
+  margin-top: 32px;
+  color: white;
+}
+.para h1 {
+  margin-left: 150px;
+  font-weight: bolder;
+  font-size: 60px;
+  margin-top: 62px;
+}
+.ai {
+  margin-left: 1030px;
+  height: 500px;
+  width: 500px; 
+  border-radius: 250px;
+  margin-top: -205px; 
+  max-width: 100%;
+  height: auto;
+}
+
+.btn {
+  margin: -150px;
+  margin-left: 250px;
+  margin-top: -200px;
+  display: flex;
+  /* justify-content: center; */
+  gap: 10px;
+}
+.btn1 {
+  font-weight: bolder;
+  height: 50px;
+  width: 140px;
+  border-radius: 30px;
+  background-color: white;
+  color:#66b2ff;
+  border: none;
+}
+.btn1:hover {
+  cursor: pointer;
+  outline: none;
+  animation: bounce 1s infinite;
+  background-color:  #052b50;
+  color: #66b2ff;
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.btn2 {
+  font-weight: bolder;
+  background-color: #66b2ff;
+  color: white;
+  height: 50px;
+  width: 140px;
+  border-radius: 30px;
+  margin-left: 15px;
+  border: none;
+}
+.btn2:hover {
+  background-color:  #052b50;
+  color: #66b2ff;
+  animation: bouncing 1s infinite;
+  cursor: pointer;
+  outline: none;
+}
+@keyframes bouncing {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+hr {
+  width: 1450px;
+  margin-top: 20px;
+  color:white;
+}
+details {
+  list-style: none;
+}
+summary {
+  list-style: none;
+}
+h2 {
+  text-align: center;
+  color:#66b2ff;
+}
+
+.p1 {
+  color:white;
+  text-align: center;
+  margin: 40px;
+}
+.box1 {
+  width: 927px;
+  font-size: 39px;
+  margin-top: 70px;
+  border: 2px solid white;
+  border-radius: 35px;
+  box-shadow: 10px 10px white;  
+  opacity: 0;
+  transform: translateX(-100%); 
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.box1.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+.box1:hover details[open] {
+  display: block;
+}
+
+.box2 {
+  width: 927px;
+  font-weight: bolder;
+  font-size: 39px;
+  margin-top: 70px;
+  border: 2px solid white;
+  border-radius: 35px;
+  box-shadow: 10px 10px white;
+  height: fit-content;
+  opacity: 0;
+  transform: translateX(100%); 
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+.box2.show {
+  opacity: 1;
+  transform: translateX(0); 
+}
+.box2:hover details[open] {
+  display: block;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header2 {
+  color:white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 60px;
+  margin-top: 65px;
+  position: relative;
+  animation: bouncer 1s infinite;
+
+}
+@keyframes bouncer {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+.header2::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -10px;
+  left: 50%;
+  background-color:white;
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+.header2:hover::after {
+  width: 150px;
+}
+.sec {
+  padding-left: 20px;
+  text-align: center;
+  color: #66b2ff;
+}
+
+.same {
+  list-style: disc;
+  margin-bottom: 5px;
+  list-style: none;
+  color: white;
+}
+.boxcon2 {
+  border: 2px solid white;
+  background: url(stacked-steps-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 450px;
+  border-radius: 20px;
+  height: fit-content;
+  margin-left: 108px;
+  margin-top: 70px;
+  box-shadow: 10px 10px white;
+  list-style: none;
+  padding: 0;
+  opacity: 0;
+  transform: translateX(-100%); 
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+
+.boxcon2.show {
+opacity: 1;
+transform: translateX(0);
+}
+.boxcon2 li img {
+  height: 50px;
+  width: 60px;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+.boxcon2 li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.header3 {
+  color:white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-top: 60px;
+  position: relative;
+  animation: bouncer 1s infinite;
+}
+@keyframes bouncer {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+.header3::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -10px;
+  left: 50%;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+.header3:hover::after {
+  width: 150px;
+}
+
+.form-con {
+  display: flex;
+  justify-content: center;
+  margin: -300px;
+  margin-left: -50px;
+}
+#h1con {
+  font-weight: bolder;
+  font-size: 37px;
+  color: #66b2ff;
+}
+#h2con {
+  color: #66b2ff;
+  font-size: 25px;
+}
+#btncon button {
+  font-weight: bolder;
+  background-color:#66b2ff;
+  color: white;
+  height: 50px;
+  width: 140px;
+  border-radius: 30px;
+  margin-top: 10px;
+  border: none;
+}
+#btncon button:hover{
+  background-color: #052b50;
+  color: #66b2ff;
+}
+#in1 {
+  background-color: white;
+  border: 0px white;
+  border-radius: 10px;
+  height: 25px;
+  width: 226px;
+  padding: 5px;
+}
+#in3 {
+  background-color: white;
+  border: 0px white;
+  border-radius: 10px;
+  height: 100px;
+  width: 226px;
+  padding: 5px;
+}
+.sepration {
+  margin-top: 322px;
+  border: 3px solid white;
+  background-color:white;
+  border-radius: 20px;
+  height: 132px;
+  width: 97vw;
+  background: url(layered-steps-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.last{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.last1 img {
+  height: 16px;
+  margin-right: 64px;
+}
+.last1 {
+  margin-left: 140px;
+  margin-top: 60px;
+}
+.last2 {
+  justify-content: center;
+  margin-right: 320px;
+  margin-top: 62px;
+  display: flex;
+  gap: 30px;
+  /* list-style: none; */
+  /* padding: 0; */
+}
+.last3 {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 80px;
+    margin: 0 10px;
+}
+.last2 img {
+  height: 20px;
+  margin-left: 40px;
+}
+
+.boingInUp {
+  animation-iteration-count: 2;
+}
+.vanishIn {
+  animation-iteration-count: 1;
+}
+
