@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio player</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="container">
+      <div class="box">
+        <nav>MINI SPOTIFY</nav>
+        <ul class="plays">
+          <li
+            data-src="assets/songs/The Weeknd - Blinding Lights Mp3 Song Download(OyeDjSurendra.Com).mp3"
+          >
+            <img
+              class="pic"
+              src="assets/images/blinding light.jpg"
+              alt="music cover
+    "
+            />song1
+          </li>
+          <li data-src="assets/songs/Bumpy-Ride(Pagal-World.Com.In).mp3">
+            <img
+              class="pic"
+              src="assets/images/bumpy ride.jpg"
+              alt="music cover
+    "
+            />song2
+          </li>
+          <li data-src="assets/songs/Bye Bye Bye Deadpool - PagalHits.mp3">
+            <img
+              class="pic"
+              src="assets/images/bye bye bye.jpg"
+              alt="music cover
+    "
+            />song3
+          </li>
+          <li data-src="assets/songs/Blue One Love_320(PagalWorld.com.so).mp3">
+            <img
+              class="pic"
+              src="assets/images/one love.jpg"
+              alt="music cover
+    "
+            />song4
+          </li>
+          <li data-src="assets/songs/Starboy(PagalWorld).mp3">
+            <img
+              class="pic"
+              src="assets/images/star boy.jpg"
+              alt="music cover
+    "
+            />song5
+          </li>
+        </ul>
+        <input
+          class="volume"
+          type="range"
+          id="progressBar"
+          min="0"
+          max="100"
+          value="0"
+        />
+        <nav class="btn">
+          <span
+            ><img
+              style="height: 20px; cursor: pointer; width: 40px"
+              src="previous.svg"
+              alt=""
+              onclick="previousTrack()"
+          /></span>
+          <span
+            ><img
+              id="playBtn"
+              class="button circle"
+              style="height: 20px; cursor: pointer; width: 40px"
+              src="play.svg"
+              alt=""
+              onclick="playtrack()"
+          /></span>
+          <span
+            ><img
+              id="pauseBtn"
+              class="button circle hide"
+              style="height: 20px; cursor: pointer; width: 40px"
+              src="pause.svg"
+              alt=""
+              onclick="pausetrack()"
+          /></span>
+          <span
+            ><img
+              style="height: 20px; cursor: pointer; width: 40px"
+              src="next.svg"
+              alt=""
+              onclick="nextTrack()"
+          /></span>
+        </nav>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
