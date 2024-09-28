@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background-image: url("assets/img/bg.jpg/IN-en-20240701-POP_SIGNUP_TWO_WEEKS-perspective_WEB_b00eeb83-a7e8-4b5b-8ff7-86ed92c51caf_small.jpg");
+  height: 70vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.main .box {
+  height: 70vh;
+  width: 100%;
+  position: absolute;
+  opacity: 0.44;
+  background-color: black;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  max-width: 80vh;
+  height: 0px;
+}
+nav img {
+  color: red;
+  margin-left: -350px;
+  margin-top: 90px;
+  height: 60px;
+  position: relative;
+  z-index: 20;
+}
+nav button {
+  position: relative;
+  z-index: 20;
+  margin: 15px;
+}
+.btn {
+  margin-top: 90px;
+  margin-right: -350px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  min-height: 2rem;
+  padding: 0.25rem 1rem;
+  border-radius: 0.25rem;
+}
+.hero {
+  color: white;
+  height: calc(100% - 60px);
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 160px;
+  position: relative;
+  gap: 23px;
+  padding: 0 30px;
+}
+.hero :nth-child(1) {
+  margin: 20px;
+  font-size: large;
+  text-align: center;
+  font-weight: bolder;
+}
+.hero :nth-child(2) {
+  font-size: medium;
+  text-align: center;
+  margin-top: 20px;
+  text-align: center;
+}
+li {
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-color: black;
+}
+.sepration {
+  height: 8px;
+  background-color: rgb(54, 53, 53);
+}
+.first {
+  justify-content: center;
+  display: flex;
+  max-width: 80vw;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.secimg {
+  position: relative;
+}
+.secimg img {
+  width: 36vw;
+  position: relative;
+  z-index: 10;
+}
+.secimg video {
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+p {
+  margin: 20px;
+  text-align: center;
+  justify-content: center;
+  font-size: 70px;
+  font-weight: bolder;
+}
+.firstsecond {
+  justify-content: center;
+  display: flex;
+  max-width: 80vw;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.firstsecond h2 {
+  text-align: center;
+  margin: 20px;
+  justify-content: center;
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+.firstthird {
+  justify-content: center;
+  display: flex;
+  max-width: 80vw;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.secimg3 {
+  position: relative;
+}
+.secimg3 img {
+  width: 36vw;
+  position: relative;
+  z-index: 10;
+}
+.secimg3 video {
+  position: absolute;
+  top: 33px;
+  right: -5px;
+  height: 200px;
+  left: 90px;
+}
+.firstfourth p {
+  margin: 20px;
+  text-align: center;
+  justify-content: center;
+  font-size: 50px;
+}
+.firstfourth {
+  justify-content: center;
+  display: flex;
+  max-width: 80vw;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.firstfourth h2 {
+  text-align: center;
+  margin: 20px;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: medium;
+}
+.faq {
+  background-color: black;
+  margin: 30px;
+}
+.faq h1 {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+.faqbox {
+  display: flex;
+  background-color: rgb(54, 53, 53);
+  padding: 40px;
+  height: 0px;
+  width: 70vw;
+  margin-top: 25px;
+  margin-left: 140px;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  justify-content: space-between;
+  cursor: pointer;
+  height: fit-content;
+  
+}
+.faqbox:hover {
+  background-color: grey;
+}
+.faq h2 {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin-top: 40px;
+  font-weight: bolder;
+}
+.faq .in2 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.faq :nth-child(1) {
+  margin: 15px;
+}
+.last {
+  color: whitesmoke;
+  text-align: start;
+
+  margin-left: 150px;
+  margin-top: 20px;
+}
+.last .item {
+  margin-top: 20px;
+}
