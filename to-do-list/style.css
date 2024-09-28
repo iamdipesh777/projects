@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+body{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   background: linear-gradient(to right, #8481ff, #141e30);
+
+}
+.card{
+    border: 1px solid black;
+    height: fit-content;
+    width:500px;
+    margin-top: 200px;
+    background-color: snow;
+    border-radius: 20px;
+}
+.head{
+    text-align: center;
+}
+.row{
+background:#edeef0;
+width: 350px;
+height: 50px;
+border-radius: 50px;
+margin-left: 90px;
+margin-top: 20px;
+}
+.in{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-radius: 50px;
+}
+span button{
+    height: 50px;
+    width: 95px;
+    border-radius: 50px;
+    background-color: #8481ff;
+    cursor: pointer;
+}
+span button:hover{
+    background: #8481ff;
+}
+ul li{
+    list-style: none;
+    cursor: pointer;
+    padding: 18px 8px 12px 50px;
+    user-select: none;
+    position: relative;
+}
+ul li::after{
+    content:'';
+    position:absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(image/uncheck.svg);
+    background-size:cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+ul li.checked{
+color: #555;
+text-decoration: line-through;
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top:5px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+}
+ul li span:hover{
+    background:#c2c1c1;
+    border-radius:20px;
+}
+
