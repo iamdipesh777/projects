@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Info</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <nav>Students Detail</nav>
+            <form id="studentForm">
+                <ul>
+                    <li>
+                        <label style="font-size:20px; font-weight: bolder;" for="studentname">Student Name</label>
+                        <input class="ok" id="studentname" type="text">
+                    </li>
+                    <li>
+                        <label style="font-size: 20px;font-weight: bolder;"  for="dob">Date of Birth</label>
+                        <input class="ok1" id="dob" type="date">
+                    </li>
+                    <li>
+                        <label style="font-size: 20px;font-weight: bolder;" for="class">Class</label>
+                        <input class="ok2" id="class" type="text">
+                    </li>
+                    <li>
+                        <label style="font-size: 20px;font-weight: bolder;" for="roll">Roll no.</label>
+                        <input class="ok3" id="roll" type="number">
+                    </li>
+                    <li>
+                        <label style="font-size: 20px;font-weight: bolder;" for="contact">Contact no.</label>
+                        <input class="ok4" id="contact" type="tel">
+                    </li>
+                </ul>
+                <div class="btn">
+                    <button class="b1" type="button" onclick="update()">SUBMIT</button>
+                    <button class="b2" type="reset">CLEAR ALL</button>
+                </div>
+            </form>
+        </div>
+    
+
+    <div class="sep"></div>
+
+    <div class="box2">
+        <nav class="second">Students Detail</nav>
+        <div class="image">
+            <img src="" class="rounded" alt="">
+        </div>
+        <div class="info"></div>
+        <li class="lock">Student Name: <span id="displayStudentName">Dipesh</span></li>
+        <li class="lock">Date of Birth: <span id="displayDob">00/00/0000</span></li>
+        <li class="lock">Class: <span id="displayClass">00</span></li>
+        <li class="lock">Roll no: <span id="displayRoll">00000</span></li>
+        <li class="lock">Contact no: <span id="displayContact">0000000000</span></li>
+        <div class="btn2"><button class="b12">PRINT ID CARD</button></div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
